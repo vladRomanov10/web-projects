@@ -123,6 +123,7 @@ h2 {
   width: 270px;
   height: 330px;
   vertical-align: top;
+  margin: 0 0 0 17px;
 }
 
 .components-driven {
@@ -130,6 +131,7 @@ h2 {
   width: 270px;
   height: 330px;
   vertical-align: top;
+  margin: 0 0 0 17px;
 }
 
 .swap-the-icon {
@@ -137,4 +139,22 @@ h2 {
   width: 270px;
   height: 330px;
   vertical-align: top;
+  margin: 0 0 0 17px;
+}
+
+
+
+.learn-more {
+  width: 146px;
+  height: 48px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #6C5CE7;
+  border: 1px solid gray;
+  padding: 5px 0 0 0;
+  margin: 10px 0 0 0;
 }
