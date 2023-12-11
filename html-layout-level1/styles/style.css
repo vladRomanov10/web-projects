@@ -62,10 +62,11 @@ table {
     font-weight: 700;
     src: url('../fonts/inter-v13-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
+
 html {
   box-sizing: border-box;
 }
-*, *::before, *::after{
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
@@ -81,16 +82,59 @@ body {
   padding: 55px 0;
 }
 
-.wrapper {
-  margin: 0 auto;
-  width: 950px;
-   
-}
-
 h1 {
   font-weight: 700;
+  font-size: 32px;
+}
+
+h2 {
+  font-weight: 700;
+  margin: 13px 0;
+  font-size: 24px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1170px;
+   
 }
  
 .paragraph {
   margin: 10px auto;
+  font-size: 24px;
+}
+
+.our-advantages {
+  width: 1170px;
+  margin: 50px 0 0 0;
+  font-size: 18px;
+  
+}
+
+.support {
+  display: inline-block;
+  width: 270px;
+  height: 330px;
+  vertical-align: top;
+}
+
+.sales-growth {
+  display: inline-block;
+  width: 270px;
+  height: 330px;
+  vertical-align: top;
+}
+
+.components-driven {
+  display: inline-block;
+  width: 270px;
+  height: 330px;
+  vertical-align: top;
+}
+
+.swap-the-icon {
+  display: inline-block;
+  width: 270px;
+  height: 330px;
+  vertical-align: top;
 }
