@@ -50,7 +50,7 @@ table {
 /* gilroy-regular */
 @font-face {
   font-display: swap;
-  font-family: 'Gilroy';
+  font-family: 'Gilroy-regular';
   font-style: normal;
   font-weight: normal;
   src: url(../fonts/gilroy-regular.ttf);
@@ -58,7 +58,7 @@ table {
 /* gilroy-medium */
 @font-face {
   font-display: swap;
-  font-family: 'Gilroy';
+  font-family: "Gilroy-medium";
   font-style: normal;
   font-weight: 500;
   src: url(../fonts/gilroy-medium.ttf);
@@ -66,7 +66,7 @@ table {
 /* gilroy-bold */
 @font-face {
   font-display: swap;
-  font-family: 'Gilroy';
+  font-family: "Gilroy-bold";
   font-style: normal;
   font-weight: bold;
   src: url(../fonts/gilroy-bold.ttf);
@@ -77,5 +77,106 @@ html {
 }
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h3 {
+  margin: 0 auto;
+  width: 165px;
+  height: 22px;
+  font-family: "Gilroy-bold";
+  font-size: 18px;
+  line-height: 21.09px;
+  color: #22215B;
+}
+
+p {
+  width: 327px;
+  height: 45px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+  line-height: 19.61px;
+  color: #22215B99;
+}
+
+img {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.personal-card {
+  font-family: "Gilroy-regular";
+  width: 476px;
+  height: 527px;
+  padding: 40px 0;
+}
+
+.avatar {
+  display: block;
+  margin: 0 auto;
+}
+
+.status {
+  width: 90px;
+  height: 30px;
+  text-align: center;
+  padding: 7px 0 0 0;
+  margin: 15px auto;
+  background-color: #EEF7FE;
+  font-family: Gilroy-medium;
+  font-size: 16px;
+  line-height: 19.61px;
+}
+
+.position {
+  margin: 10px auto;
+  width: 112px;
+  height: 18px;
+  font-size: 15px;
+  line-height: 17.58px;
+  color: #22215B;
+}
+
+.social-icons {
+  margin: 20px auto;
+  width: 317.53px;
+  height: 18.63px;
+}
+
+.icons {
+  margin: 0 35px 0 0;
+}
+
+.buttons {
+  margin: 50px auto 0;
+  font-family: Gilroy-bold;
+  font-size: 18px;
+  line-height: 21.09px;
+  width: 450px;
+}
+
+.message {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 20px 0 0 0;
+  color: #22215B;
+  width: 198px;
+  height: 70px;
+  text-align: center;
+  border: 2px solid #2F2E65;
+  border-radius: 15px;
+}
+
+.connect {
+  display: inline-block;
+  width: 198px;
+  height: 70px;
+  text-align: center;
+  border: 2px solid #2F2E65;
+  border-radius: 15px;
+  padding: 20px 0 0 0;
+  margin: 0 0 0 5px;
+  background-color: #22215B;
+  color: #E6E5FF;
 }
 
