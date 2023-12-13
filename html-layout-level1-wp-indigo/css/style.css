@@ -119,3 +119,19 @@ main {
     background-color: aqua;
     margin: 276.5px auto;
 }
+
+
+.avatar-and-name {
+    margin: 0 auto;
+    width: 141px;
+    height: 167px;
+    text-align: center;
+    background-color: brown;
+}
+
+.name {
+    font-size: 26px;
+    line-height: 34.29px;
+    margin-top: 30px;
+    font-weight: 400px;
+}
