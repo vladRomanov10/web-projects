@@ -72,7 +72,7 @@ html {
     src: url('../fonts/roboto-mono-v23-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
   
-  body {
+body {
     width: 1440px;
     height: 1024px;
     font-family: "Roboto Mono";
@@ -88,6 +88,32 @@ nav {
     font-weight: 400;
     display: flex;
     justify-content: space-between;
+}
+
+main {
+    width: 270px;
+    height: 267px;
+    margin: 246.5px auto 0;
+}
+
+main p {
+    color: #555555;
+    line-height: 27px;
+    margin-top: 30px;
+}
+
+footer p {
+    color: #1A1A1A;
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+    line-height: 17.15px;
+}
+
+hr {
+    height: 1px;
+    background-color: #BFBFBF;
+    border: none;
 }
 
 .home {
@@ -113,20 +139,11 @@ nav {
     padding: 7px 9px 6px 10px;
 }
 
-main {
-    width: 270px;
-    height: 267px;
-    background-color: aqua;
-    margin: 276.5px auto;
-}
-
-
 .avatar-and-name {
     margin: 0 auto;
     width: 141px;
     height: 167px;
     text-align: center;
-    background-color: brown;
 }
 
 .name {
@@ -134,4 +151,16 @@ main {
     line-height: 34.29px;
     margin-top: 30px;
     font-weight: 400px;
+}
+
+.social-icons {
+    margin: 25px auto 0;
+    width: 139.86px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.underline {
+    margin: 60px auto;
+    width: 555px;
 }
