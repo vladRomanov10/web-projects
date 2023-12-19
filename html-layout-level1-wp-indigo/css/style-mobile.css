@@ -78,11 +78,12 @@ body {
     font-family: "Roboto Mono";
     size: 16px;
     font-weight: 300;
+    
 }
 
 header img {
     display: block;
-    margin: 5px 10px 0 0;
+    margin: 15px 15px 0 0;
 }
 
 h1 {
@@ -112,6 +113,35 @@ footer p {
     display: flex;
     justify-content: flex-end;
 }
+
+.mobile-menu {
+    display: flex;
+    width: 112px;
+    height: 172px;
+    margin: 0 auto;
+    margin-top: 80px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26.38px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mobile-buttons {
+    width: 112px;
+    height: 42px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.home-button {
+    color: #FFFFFF;
+    background-color: #3F51B5;
+    text-align: center;
+}
+
+
 
 .main-block {
     width: 270px;
