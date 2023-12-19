@@ -71,27 +71,12 @@ html {
     font-weight: 400;
     src: url('../fonts/roboto-mono-v23-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-
+/*Общие настройки для всех мобильных страниц*/
 body {
     font-family: "Roboto Mono";
     size: 16px;
     font-weight: 300;
     
-}
-
-header img {
-    display: block;
-    margin: 15px 15px 0 0;
-}
-
-h1 {
-    margin-top: 32px;
-    font-size: 26px;
-    font-weight: 400;
-}
-
-main div p {
-    margin: 33px auto;
 }
 
 hr {
@@ -107,21 +92,76 @@ footer p {
     text-align: center;
 }
 
+a:active,
+a:hover,
 a {
     text-decoration: none;
+    color:#1A1A1A;
+    
+}
+/*Общие настройки для всех мобильных страниц*/
+
+/*Настройки для стриницы home-mobile*/
+.home-mobile {
+    width: 360px;
+    height: 640px;
 }
 
-.flex {
+.home-mobile .flex {
     display: flex;
     justify-content: flex-end;
 }
 
+.home-mobile header img {
+    display: block;
+    margin: 15px 15px 0 0;
+}
+
+.home-mobile .main-block {
+    width: 270px;
+    height: 267px;
+    margin: 0 auto;
+    margin-top: 149.5px;
+
+}
+
+.home-mobile .avatar-name {
+    width: 141px;
+    height: 167px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.home-mobile main p {
+    margin: 33px auto;
+}
+
+.home-mobile h1 {
+    margin-top: 32px;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.home-mobile .social-icons {
+    margin: 0 auto;
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-mobile .underline {
+    width: 330px;
+    margin: 0 auto;
+}
+/*Настройки для стриницы home-mobile*/
+
+/*Настройки для стриницы home mobile menu*/
 .home-mobile-menu {
     width: 360px;
     height: 640px;
 }
 
-.mobile-menu {
+.home-mobile-menu .mobile-menu {
     display: flex;
     width: 112px;
     height: 172px;
@@ -135,53 +175,70 @@ a {
     justify-content: space-between;
 }
 
-.mobile-buttons {
+.home-mobile-menu .mobile-buttons {
     width: 112px;
     height: 42px;
     text-align: center;
     padding-top: 7px;
 }
 
-.home-button {
+.home-mobile-menu .home-button {
     color: #FFFFFF;
     background-color: #3F51B5;
     text-align: center;
 }
+/*Настройки для стриницы home mobile menu*/
 
-.about {
+/*Настройки для стриницы about-mobile*/
+.about-mobile {
     width: 360px;
     height: 1814px;
 }
 
-.home-mobile {
-    width: 360px;
-    height: 640px;
-}
-
-.main-block {
-    width: 270px;
-    height: 267px;
-    margin: 0 auto;
-    margin-top: 149.5px;
-
-}
-
-.avatar-name {
-    width: 141px;
-    height: 167px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.social-icons {
-    margin: 0 auto;
-    width: 140px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.underline {
+.about-mobile main {
+    padding-top: 60px;
     width: 330px;
     margin: 0 auto;
 }
 
+.about-mobile h1 {
+font-size: 26px;
+font-weight: 400;
+line-height: 34.29px;
+text-align: center;
+}
+
+.about-mobile section {
+    width: 330px;
+    line-height: 27px;
+    margin: 25px auto;
+    color: #555555;
+}
+
+.about-mobile .repeat {
+    margin-top: 20px;
+}
+
+.about-mobile h2 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26.38px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+}
+
+.about-mobile ul {
+    margin-left: 18px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.about-mobile li {
+    list-style-type: disc;
+    color: #555555;
+}
+
+.about-mobile footer {
+    margin-top: 80px;
+}
+/*Настройки для стриницы about-mobile*/
