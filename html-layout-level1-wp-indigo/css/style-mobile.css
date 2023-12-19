@@ -109,6 +109,10 @@ footer p {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 .flex {
     display: flex;
     justify-content: flex-end;
