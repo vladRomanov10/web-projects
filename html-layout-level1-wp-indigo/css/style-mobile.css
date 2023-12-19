@@ -73,8 +73,6 @@ html {
 }
 
 body {
-    width: 360px;
-    height: 640px;
     font-family: "Roboto Mono";
     size: 16px;
     font-weight: 300;
@@ -118,6 +116,11 @@ a {
     justify-content: flex-end;
 }
 
+.home-mobile-menu {
+    width: 360px;
+    height: 640px;
+}
+
 .mobile-menu {
     display: flex;
     width: 112px;
@@ -145,7 +148,15 @@ a {
     text-align: center;
 }
 
+.about {
+    width: 360px;
+    height: 1814px;
+}
 
+.home-mobile {
+    width: 360px;
+    height: 640px;
+}
 
 .main-block {
     width: 270px;
