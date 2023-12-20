@@ -71,7 +71,7 @@ html {
     font-weight: 400;
     src: url('../fonts/roboto-mono-v23-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-/*Общие настройки для всех мобильных страниц*/
+/*Общие правила для всех мобильных страниц*/
 body {
     font-family: "Roboto Mono";
     size: 16px;
@@ -86,9 +86,13 @@ hr {
     margin: 45px 0;
 }
 
+.underline {
+    width: 330px;
+    margin: 0 auto;
+}
+
 footer p {
     font-size: 13px;
-    margin: 0 auto;
     text-align: center;
 }
 
@@ -97,24 +101,23 @@ a:hover,
 a {
     text-decoration: none;
     color:#1A1A1A;
-    
-}
-/*Общие настройки для всех мобильных страниц*/
-
-/*Настройки для стриницы home-mobile*/
-.home-mobile {
-    width: 360px;
-    height: 640px;
 }
 
-.home-mobile .flex {
+header .menu-icon {
     display: flex;
     justify-content: flex-end;
 }
 
-.home-mobile header img {
+header img {
     display: block;
     margin: 15px 15px 0 0;
+}
+/*Общие правила для всех мобильных страниц*/
+
+/*Правила для страницы home-mobile*/
+.home-mobile {
+    width: 360px;
+    height: 640px;
 }
 
 .home-mobile .main-block {
@@ -148,14 +151,9 @@ a {
     display: flex;
     justify-content: space-between;
 }
+/*Правила для страницы home-mobile*/
 
-.home-mobile .underline {
-    width: 330px;
-    margin: 0 auto;
-}
-/*Настройки для стриницы home-mobile*/
-
-/*Настройки для стриницы home mobile menu*/
+/*Правила для страницы home mobile menu*/
 .home-mobile-menu {
     width: 360px;
     height: 640px;
@@ -187,9 +185,9 @@ a {
     background-color: #3F51B5;
     text-align: center;
 }
-/*Настройки для стриницы home mobile menu*/
+/*Правила для страницы home mobile menu*/
 
-/*Настройки для стриницы about-mobile*/
+/*Правила для страницы about-mobile*/
 .about-mobile {
     width: 360px;
     height: 1814px;
@@ -241,4 +239,73 @@ text-align: center;
 .about-mobile footer {
     margin-top: 80px;
 }
-/*Настройки для стриницы about-mobile*/
+/*Правила для страницы about-mobile*/
+
+/*Правила для страницы blog-mobile*/
+.blog-mobile {
+    width: 360px;
+    height: 1337px;
+}
+
+.blog-mobile .main-block {
+    width: 270px;
+    height: 267px;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+.blog-mobile .avatar-name {
+    width: 141px;
+    height: 167px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.blog-mobile main p {
+    margin: 33px auto;
+}
+
+.blog-mobile h1 {
+    margin-top: 32px;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.blog-mobile .social-icons {
+    margin: 0 auto;
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-mobile .list-of-topic {
+    margin-left: 14px;
+}
+
+.blog-mobile dt {
+    font-weight: 400;
+    line-height: 23.84px;
+    color: #1A1A1A;
+    margin-bottom: 5px;
+}
+
+.blog-mobile dd {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 30px;
+}
+
+.blog-mobile .navigation-buttom {
+    width: 192px;
+    margin: 40px 0 40px 70px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1A1A1A;
+}
+
+.blog-mobile .underline {
+    margin: 60px auto;
+}
+/*Правила для страницы blog-mobile*/
