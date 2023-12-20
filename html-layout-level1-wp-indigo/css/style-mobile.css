@@ -309,3 +309,24 @@ text-align: center;
     margin: 60px auto;
 }
 /*Правила для страницы blog-mobile*/
+
+/*Правила для страницы blog-single-mobile*/
+.blog-single-mobile {
+    width: 360px;
+    height: 3690px;
+}
+
+.blog-single-mobile .page-title {
+    
+}
+
+.blog-single-mobile h1 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 34.29px;
+    margin-top: 50px;
+}
+
+
+/*Правила для страницы blog-single-mobile*/
