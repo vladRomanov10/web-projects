@@ -71,23 +71,50 @@ html {
     font-weight: 400;
     src: url('../fonts/roboto-mono-v23-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-  
+/*Общие настройки*/
 body {
-    width: 1440px;
-    height: 1024px;
     font-family: "Roboto Mono";
     size: 16px;
     font-weight: 300;
-    padding-top: 70px;
+    line-height: 27px;
+    padding-top: 45px;
 }
 
 nav {
     width: 271px;
     height: 32px;
     margin: 0 auto;
-    font-weight: 400;
     display: flex;
     justify-content: space-between;
+}
+
+.home-button {
+    display: inline-block;
+    width: 57px;
+    height: 32px;
+    background-color: #3F51B5;
+    color: #FFFFFF;
+    padding: 7px 9px 6px 10px;
+}
+
+.about-button {
+    display: inline-block;
+    width: 67px;
+    height: 32px;
+    padding: 7px 9px 6px 10px;
+}
+
+.blog-button {
+    display: inline-block;
+    width: 57px;
+    height: 32px;
+    padding: 7px 9px 6px 10px;
+}
+
+.medium-font {
+    font-weight: 400;
+    line-height: 23.84px;
+    color: #1A1A1A;
 }
 
 main {
@@ -116,28 +143,9 @@ hr {
     border: none;
 }
 
-.home {
-    display: inline-block;
-    width: 57px;
-    height: 32px;
-    background-color: #3F51B5;
-    color: #FFFFFF;
-    padding: 7px 9px 6px 10px;
-}
 
-.about {
-    display: inline-block;
-    width: 67px;
-    height: 32px;
-    padding: 7px 9px 6px 10px;
-}
 
-.blog {
-    display: inline-block;
-    width: 57px;
-    height: 32px;
-    padding: 7px 9px 6px 10px;
-}
+
 
 .avatar-and-name {
     margin: 0 auto;
@@ -164,3 +172,10 @@ hr {
     margin: 60px auto;
     width: 555px;
 }
+/* Настройки home-dekstop */
+.home-dekstop {
+    width: 1440px;
+    height: 1024px;
+}
+
+/* Настройки home-dekstop */
