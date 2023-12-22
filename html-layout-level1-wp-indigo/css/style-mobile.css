@@ -124,6 +124,16 @@ header img {
     font-size: 14px;
     line-height: 21px;
 } 
+
+.smaller-print {
+    font-size: 13px;
+    line-height: 17.15px;
+}
+
+.weight400 {
+    font-weight: 400;
+    line-height: 23.84px;
+}
 /*Общие правила для всех мобильных страниц*/
 
 /*Правила для страницы home-mobile*/
@@ -398,8 +408,6 @@ margin-top: 30px;
 }
 
 .blog-single-mobile .label {
-    font-size: 13px;
-    line-height: 17.15px;
     margin: 30px 0 5px;
 }
 
@@ -412,5 +420,63 @@ margin-top: 30px;
 
 .blog-single-mobile .comment-zone {
     height: 140px;
+}
+
+.blog-single-mobile .data-message {
+    width: 330px;
+    height: 63px;
+    display: flex;
+    margin: 30px 0;
+    justify-content: space-between;
+}
+
+.blog-single-mobile .check-box {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #C4C4C4;
+}
+
+.blog-single-mobile .save-data-message {
+    width: 307px;
+}
+
+.blog-single-mobile .post-comment {
+    width: 176px;
+    height: 46px;
+    color: #FFFFFF;
+    background-color: #1A1A1A;
+    margin-top: -7px;
+    padding: 10px 30px;
+} 
+
+.blog-single-mobile .comments {
+    width: 330px;
+    height: 712px;
+    margin: 60px auto 0px;
+}
+
+.blog-single-mobile h2#Comments {
+    margin-bottom: 30px;
+}
+
+.blog-single-mobile .comment-block {
+    line-height: 27px;
+}
+
+.blog-single-mobile .name-date {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.blog-single-mobile .user-comment {
+    margin-bottom: 20px;
+}
+
+.blog-single-mobile .reply-block {
+    width: 262px;
+    height: 161px;
+    margin: 50px 0 50px auto;
+    line-height: 27px;
+
 }
 /*Правила для страницы blog-single-mobile*/
