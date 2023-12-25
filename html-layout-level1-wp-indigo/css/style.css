@@ -78,6 +78,20 @@ body {
     font-weight: 300;
     line-height: 27px;
     padding-top: 45px;
+    color: #555555;
+}
+
+h1 {
+    font-size: 26px;
+    line-height: 34.29px;
+    color: #1A1A1A;
+    font-weight: 400;
+}
+
+.medium-font {
+    font-weight: 400;
+    line-height: 23.84px;
+    color: #1A1A1A;
 }
 
 nav {
@@ -92,49 +106,43 @@ nav {
     display: inline-block;
     width: 57px;
     height: 32px;
-    background-color: #3F51B5;
-    color: #FFFFFF;
-    padding: 7px 9px 6px 10px;
+    padding: 4px 9px 4px 9px;
 }
 
 .about-button {
     display: inline-block;
     width: 67px;
     height: 32px;
-    padding: 7px 9px 6px 10px;
+    padding: 4px 9px 4px 9px;
 }
 
 .blog-button {
     display: inline-block;
     width: 57px;
     height: 32px;
-    padding: 7px 9px 6px 10px;
+    padding: 4px 9px 4px 9px;
 }
 
-.medium-font {
-    font-weight: 400;
-    line-height: 23.84px;
-    color: #1A1A1A;
-}
-
-main {
+.avatar-name-icons {
     width: 270px;
     height: 267px;
-    margin: 246.5px auto 0;
+    margin: 228px auto 0;
 }
 
-main p {
-    color: #555555;
-    line-height: 27px;
+.avatar-and-name {
+    margin: 0 auto 30px;
+    width: 141px;
+    height: 167px;
+    text-align: center;
+}
+
+.name {
     margin-top: 30px;
 }
 
-footer p {
-    color: #1A1A1A;
-    margin: auto;
-    text-align: center;
-    font-size: 13px;
-    line-height: 17.15px;
+.underline {
+    margin: 60px auto;
+    width: 555px;
 }
 
 hr {
@@ -143,39 +151,28 @@ hr {
     border: none;
 }
 
-
-
-
-
-.avatar-and-name {
-    margin: 0 auto;
-    width: 141px;
-    height: 167px;
+footer p {
+    color: #1A1A1A;
+    font-size: 13px;
+    line-height: 17.15px;
     text-align: center;
 }
 
-.name {
-    font-size: 26px;
-    line-height: 34.29px;
-    margin-top: 30px;
-    font-weight: 400;
-}
-
-.social-icons {
-    margin: 25px auto 0;
-    width: 139.86px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.underline {
-    margin: 60px auto;
-    width: 555px;
-}
 /* Настройки home-dekstop */
 .home-dekstop {
     width: 1440px;
     height: 1024px;
 }
 
+.home-dekstop .home-button {
+    color: #FFFFFF;
+    background-color: #3F51B5;
+}
+
+.home-dekstop .social-icons {
+    margin: 25px auto 0;
+    width: 139.86px;
+    display: flex;
+    justify-content: space-between;
+}
 /* Настройки home-dekstop */
