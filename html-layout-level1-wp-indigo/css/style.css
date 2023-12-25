@@ -104,6 +104,13 @@ li {
     color: #555555;
 }
 
+a:active,
+a:hover,
+a {
+    text-decoration: none;
+    color:#1A1A1A;
+}
+
 .medium-font {
     font-weight: 400;
     line-height: 23.84px;
@@ -236,3 +243,48 @@ footer p {
     margin-top: 82px;
 }
 /* Настройки about-dekstop */
+/* Настройки blog-dekstop */
+.blog-dekstop {
+    width: 1440px;
+    height: 979px;
+}
+
+.blog-dekstop .blog-button {
+    color: #FFFFFF;
+    background-color: #3F51B5;
+}
+
+.blog-dekstop .avatar-name-icons {
+    margin-top: 118px;
+}
+
+.blog-dekstop .social-icons {
+    margin: 25px auto 0;
+    width: 139.86px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-dekstop .underline {
+    margin-top: 45px;
+}
+
+.blog-dekstop section {
+    width: 556px;
+    margin: 0 auto;
+}
+
+.blog-dekstop dt,
+.blog-dekstop dd {
+    display: inline-block;
+    margin-bottom: 34px;
+}
+
+.blog-dekstop dd {
+    font-size: 14px;
+    line-height: 21px;
+    vertical-align: top;
+    float: right;
+}
+
+/* Настройки blog-dekstop */
