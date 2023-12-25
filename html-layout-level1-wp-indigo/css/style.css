@@ -88,6 +88,22 @@ h1 {
     font-weight: 400;
 }
 
+h2 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26.38px;
+}
+
+ul {
+    margin-left: 18px;
+    
+}
+
+li {
+    list-style-type: disc;
+    color: #555555;
+}
+
 .medium-font {
     font-weight: 400;
     line-height: 23.84px;
@@ -147,7 +163,7 @@ nav {
 
 hr {
     height: 1px;
-    background-color: #BFBFBF;
+    background-color: #F0F0F0;
     border: none;
 }
 
@@ -161,7 +177,7 @@ footer p {
 /* Настройки home-dekstop */
 .home-dekstop {
     width: 1440px;
-    height: 1024px;
+    height: 979px;
 }
 
 .home-dekstop .home-button {
@@ -175,4 +191,48 @@ footer p {
     display: flex;
     justify-content: space-between;
 }
+
+.home-dekstop hr {
+    background-color: #BFBFBF;
+}
 /* Настройки home-dekstop */
+/* Настройки about-dekstop */
+.about-dekstop {
+    width: 1440px;
+    height: 1535px;
+
+}
+
+.about-dekstop .about-button {
+    color: #FFFFFF;
+    background-color: #3F51B5;
+}
+
+.about-dekstop .content {
+    width: 556px;
+    height: 1178px;
+    margin: 96px auto 82px;
+}
+
+.about-dekstop .content h1 {
+    width: 79px;
+    margin: 0 auto;
+}
+
+.about-dekstop .content p {
+    margin: 26px 0 31px;
+}
+
+.about-dekstop .skills {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.about-dekstop .projects {
+    margin-top: 15px;
+}
+
+.about-dekstop .underline {
+    margin-top: 82px;
+}
+/* Настройки about-dekstop */
