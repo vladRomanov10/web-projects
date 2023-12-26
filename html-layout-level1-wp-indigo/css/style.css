@@ -117,6 +117,11 @@ a {
     color: #1A1A1A;
 }
 
+.text-font {
+    font-size: 14px;
+    line-height: 21px;
+}
+
 nav {
     width: 271px;
     height: 32px;
@@ -246,7 +251,7 @@ footer p {
 /* Настройки blog-dekstop */
 .blog-dekstop {
     width: 1440px;
-    height: 979px;
+    height: 1212px;
 }
 
 .blog-dekstop .blog-button {
@@ -281,10 +286,18 @@ footer p {
 }
 
 .blog-dekstop dd {
-    font-size: 14px;
-    line-height: 21px;
     vertical-align: top;
     float: right;
 }
 
+.blog-dekstop .content nav {
+    width: 192px;
+    display: flex;
+    margin: 49 auto 0;
+    justify-content: space-between;
+}
+
+.blog-dekstop .underline-two {
+    margin: 60px auto;
+}
 /* Настройки blog-dekstop */
