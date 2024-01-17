@@ -53,3 +53,74 @@ html {
   *, *::before, *::after {
     box-sizing: inherit;
 }
+/* inter-regular - cyrillic_latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/inter-v13-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  
+/* inter-500 - cyrillic_latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/inter-v13-cyrillic_latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+  
+/* inter-600 - cyrillic_latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	src: url('../fonts/inter-v13-cyrillic_latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+  
+/* inter-700 - cyrillic_latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/inter-v13-cyrillic_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* main styles start */
+body {
+	font-family: "Inter";
+	color: #3C3C3B;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 56px;
+}
+/* main styles end */
+/*header styles start */
+header {
+	max-width: 1920px;
+	height: 128px;
+	margin: 0 auto;
+	padding: 0 240px;
+	background-color: #4B565E;
+}
+.header_main {
+	max-width: 1440px;
+	height: 80px;
+	padding: 0 60px;
+	margin: 0 auto;
+}
+.logo-icon {
+	width: 61px;
+	height: 40px;
+}
+.header_main-items {
+	display: inline-flex;
+	justify-content: space-between;
+}
+/*header styles end */
+
