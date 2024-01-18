@@ -171,5 +171,28 @@ header {
 	height: 48px;
 	background-color: #F0BA4E;
 }
+
+.header__minor-wrap {
+	display: flex;
+	align-items: center;
+	width: 1320px;
+	height: 48px;
+	margin: 0 auto;
+}
+
+.header__minor--catalog-button {
+	width: 83px;
+	height: 24px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__minor--buttons-items {
+	width: 696px;
+	display: flex;
+	margin-left: 24px;
+	grid-gap: 24px;
+}
 /*header styles end */
 
