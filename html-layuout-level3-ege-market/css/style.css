@@ -102,25 +102,74 @@ h1 {
 /* main styles end */
 /*header styles start */
 header {
-	max-width: 1920px;
+	width: 1920px;
 	height: 128px;
-	margin: 0 auto;
-	padding: 0 240px;
 	background-color: #4B565E;
 }
-.header_main {
-	max-width: 1440px;
+
+.header_wrap {
+	width: 1920px;
+	height: 80px;
+	margin: 0 auto;
+	padding: 0 240px;
+}
+
+.header__main {
+	display: flex;
+	width: 1440px;
 	height: 80px;
 	padding: 0 60px;
 	margin: 0 auto;
+	align-items: center;
 }
-.logo-icon {
+
+.header__main--logo-icon {
 	width: 61px;
 	height: 40px;
 }
-.header_main-items {
-	display: inline-flex;
+
+.header__main--buttons {
+	width: 755px;
+	height: 19px;
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.header__main--buttons--items {
+	width: 273px;
+	display: flex;
 	justify-content: space-between;
+}
+
+.header__main--buttons--items .items {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 19.36px;
+	color: #F9FAFB;
+}
+
+.header__main--phone {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 194px;
+	height: 28px;
+	margin-left: 40px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19.36px;
+	color: #FFFFFF;
+}
+
+.header__main--like-logo {
+	display: inline-block;
+	margin: 0 40px;
+}
+
+.header__minor {
+	width: 1920px;
+	height: 48px;
+	background-color: #F0BA4E;
 }
 /*header styles end */
 
