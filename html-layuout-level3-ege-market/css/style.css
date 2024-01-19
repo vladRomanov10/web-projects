@@ -88,18 +88,14 @@ html {
 	font-weight: 700;
 	src: url('../fonts/inter-v13-cyrillic_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-/* main styles start */
+/* general styles start */
 body {
 	font-family: "Inter";
 	color: #3C3C3B;
 }
 
-h1 {
-	font-size: 40px;
-	font-weight: 700;
-	line-height: 56px;
-}
-/* main styles end */
+/* general styles end */
+
 /*header styles start */
 header {
 	width: 1920px;
@@ -242,3 +238,26 @@ input#search {
 }
 /*header styles end */
 
+/* main styles start */
+.main__title-picture {
+	width: 1920px;
+	height: 720px;
+	background: 
+	url(../images/title_page.png);
+}
+
+.main__title-picture-wrap {
+	width: 1058px;
+	height: 720px;
+	padding: 304px 215px 304px 300px;
+}
+
+.main__title-picture-wrap--header {
+	width: 543px;
+	height: 112px;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 56px;
+	color: #F0BA4E;
+}
+/* main styles end */
