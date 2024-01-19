@@ -239,6 +239,10 @@ input#search {
 /*header styles end */
 
 /* main styles start */
+.main {
+	width: 1920px;
+}
+
 .main__title-picture {
 	width: 1920px;
 	height: 720px;
@@ -260,4 +264,21 @@ input#search {
 	line-height: 56px;
 	color: #F0BA4E;
 }
+
+.main__advantages {
+	width: 1319px;
+	display: flex;
+	grid-gap: 28px;
+	margin: 28px auto;
+}
+
+.main__advantages .items {
+	display: flex;
+	width: 421px;
+	height: 72px;
+}
+
+
+
+
 /* main styles end */
