@@ -270,15 +270,25 @@ input#search {
 	display: flex;
 	grid-gap: 28px;
 	margin: 28px auto;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 21.78px;
+	color: #A1A0A0;
 }
 
 .main__advantages .items {
 	display: flex;
 	width: 421px;
 	height: 72px;
+	align-items: center;
 }
 
+.advantages-logos {
+	margin-right: 16px;
+}
 
-
+.high-text {
+	color: #3C3C3B;
+}
 
 /* main styles end */
