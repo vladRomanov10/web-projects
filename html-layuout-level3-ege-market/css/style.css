@@ -365,7 +365,7 @@ box-shadow: 0px 20px 50px 0px #3C3C3B12;
 	width: 178px;
 	height: 40px;
 	display: flex;
-	margin: 94px 16px 16px auto;
+	margin: 94px 16px 16px auto; 
 	justify-content: space-between;
 	align-items: center;
 	font-size: 14px;
@@ -392,4 +392,27 @@ box-shadow: 0px 20px 50px 0px #3C3C3B12;
 	margin-top: -33px;
 }
 
+.product-list__product-cards-card3 h2 {
+	width: 231px;
+	margin: 16px auto 0 16px;
+}
+
+.card3-and4-button {
+	margin: 60px 0 16px 16px;
+	display: inline-flex;
+}
+
+.product3-pic-position {
+	display: inline-block;
+	margin: -24px 0px 0 18px;
+}
+
+.product-list__product-cards-card4 h2 {
+	width: 218px;
+	margin: 16px auto 0 16px;
+}
+
+.product4-pic-position {
+	margin: -83px 0 0 12px;
+} 
 /* main styles end */
