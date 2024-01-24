@@ -415,4 +415,13 @@ box-shadow: 0px 20px 50px 0px #3C3C3B12;
 .product4-pic-position {
 	margin: -83px 0 0 12px;
 } 
+
+.product-list__product-cards-card5 h2 {
+	width: 336px;
+	margin: 16px auto 0 16px;
+}
+
+.product5-pic-position {
+	margin: 16px 0 0 15px;
+}
 /* main styles end */
