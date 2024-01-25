@@ -459,18 +459,18 @@ box-shadow: 0px 20px 50px 0px #3C3C3B12;
 	grid-gap: 28px;
 }
 
-.product-cards__card1 {
+.product-cards__card {
 	width: 309px;
 	height: 429px;
 }
 
-.card1__product-pic {
+.card__product-pic {
 	margin: 24px 24px 8px;
 	position: relative;
 
 }
 
-.card1__product-pic--like-discount-logo {
+.card__product-pic--like-discount-logo {
 	display: flex;
 	width: 261px;
 	position: absolute;
