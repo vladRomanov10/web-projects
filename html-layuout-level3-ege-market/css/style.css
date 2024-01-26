@@ -432,6 +432,7 @@ box-shadow: 0px 20px 50px 0px #3C3C3B12;
 	width: 1412px;
 	margin: 0 auto;
 	position: relative;
+	margin-bottom: 56px;
 }
 
 .popular-products__left-arrow {
@@ -452,7 +453,7 @@ box-shadow: 0px 20px 50px 0px #3C3C3B12;
 .popular-products-wrap {
 	width: 1320px;
 	height: 491px;
-	margin: 0 auto 56px;
+	margin: 0 auto;
 }
 
 .popular-products__header-and-link {
@@ -605,3 +606,40 @@ box-shadow: 0px 20px 50px 0px #3C3C3B12;
 	left: 0;
 }
 /* Popular products styles end */
+/* Banner more than 10000 items styles start */
+.banner-more-than-10000-items {
+	width: 1320px;
+	height: 251px;
+	margin: 0 auto 56px;
+	background: linear-gradient(#F6F6F6, #F6F6F6);
+	position: relative;
+}
+
+.banner-more-than-10000-items__pic {
+	position: absolute;
+	right: 15px;
+}
+
+.banner-more-than-10000-items__header {
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 33.89px;
+	padding: 28px 0 16px 28px;
+}
+
+.banner-more-than-10000-items__message {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24.2px;
+	color: #A1A0A0;
+	padding-left: 28px;
+}
+
+.banner-more-than-10000-items__link-to-catalog {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 21.78px;
+	padding: 99px 0 0 28px;
+}
+/* Banner more than 10000 items styles end*/
+
