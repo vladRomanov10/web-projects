@@ -428,6 +428,27 @@ box-shadow: 0px 20px 50px 0px #3C3C3B12;
 }
 /* Product list styles end */
 /* Popular products styles start */
+.popular-products {
+	width: 1412px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.popular-products__left-arrow {
+    position: absolute;
+    top: 247px;
+    left: 2px;
+    z-index: 1;
+}
+
+.popular-products__right-arrow {
+	position: absolute;
+    top: 247px;
+    right: 2px;
+    z-index: 1;
+	transform: rotate(180deg)
+}
+
 .popular-products-wrap {
 	width: 1320px;
 	height: 491px;
@@ -567,5 +588,20 @@ box-shadow: 0px 20px 50px 0px #3C3C3B12;
 	border: 1px solid #F0BA4E;
 	border-radius: 54px;
 	color: #3C3C3B;
+}
+
+.card__product-pic--new-like-discount-logo {
+	display: flex;
+	width: 261px;
+	position: absolute;
+	justify-content: space-between;
+	top: 0;
+	left: 0;
+}
+
+.sale_logo {
+	position: absolute;
+	top: 55px;
+	left: 0;
 }
 /* Popular products styles end */
