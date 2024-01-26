@@ -650,7 +650,28 @@ box-shadow: 0px 20px 50px 0px #3C3C3B12;
 	height: 491px;
 	margin: 0 auto;
 }
-
 /* New products styles end*/
+/* Footer styles start*/
+.footer {
+	width: 1920px;
+	height: 373px;
+	background-color: #4B565E;
+	background-image: url(../images/svg/logo_icon.svg);
+	background-repeat: no-repeat;
+	background-position: 300px 34px;
+}
+
+.vertborder {
+	width: 960px;
+	height: 230px;
+	border-right: 1px solid #566169;
+}
+
+.hrborder {
+	width: 1920px;
+	border-top: 1px solid #566169;
+}
+/* Footer styles end*/
+
 
 
