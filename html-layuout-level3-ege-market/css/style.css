@@ -655,21 +655,66 @@ box-shadow: 0px 20px 50px 0px #3C3C3B12;
 .footer {
 	width: 1920px;
 	height: 373px;
-	background-color: #4B565E;
-	background-image: url(../images/svg/logo_icon.svg);
-	background-repeat: no-repeat;
-	background-position: 300px 34px;
+	background: 
+		url(../images/svg/logo_icon.svg) 300px 34px no-repeat,
+		url(../images/svg/phone-logo.svg) 300px 105px no-repeat,
+		url(../images/svg/email_logo.svg) 553px 105px no-repeat,
+		#4B565E;
 }
 
 .vertborder {
 	width: 960px;
 	height: 230px;
 	border-right: 1px solid #566169;
+	padding: 105px 0 0 336px;
+}
+
+.contact-number {
+	display: inline-block;
+	width: 161px;
+	height: 73px;
+	padding-top: 4px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 19px;
+	color: #FFFFFF;
+}
+
+.contact-number__number-email {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 15px;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.email-info {
+	display: inline-block;
+	width: 130px;
+	height: 73px;
+	margin-left: 92px;
+	padding-top: 4px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 19px;
+	color: #FFFFFF;
 }
 
 .hrborder {
 	width: 1920px;
 	border-top: 1px solid #566169;
+}
+
+.footer-nav__buttons {
+	display: flex;
+	margin: 34px 0 0 300px;
+	grid-gap: 28px;
+}
+
+.footer-nav__buttons--items a {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16.94px;
+	color: #FFFFFF;
 }
 /* Footer styles end*/
 
