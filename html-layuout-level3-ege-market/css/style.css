@@ -90,6 +90,8 @@ html {
 }
 /* general styles start */
 body {
+	width: 1920px;
+	margin: 0 auto;
 	font-family: "Inter";
 	font-weight: 400;
 	color: #3C3C3B;
@@ -662,7 +664,13 @@ box-shadow: 0px 20px 50px 0px #3C3C3B12;
 		#4B565E;
 }
 
+.footer-flex-wrap {
+	display: flex;
+	width: 1920px;
+}
+
 .vertborder {
+	display: inline-block;
 	width: 960px;
 	height: 230px;
 	border-right: 1px solid #566169;
@@ -699,8 +707,69 @@ box-shadow: 0px 20px 50px 0px #3C3C3B12;
 	color: #FFFFFF;
 }
 
+.footer__subscription-area {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 534px;
+	height: 162px;
+	margin: 34px 0 0 126px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: rgba(255, 255, 255, 0.6);
+	background: 
+		url(../images/svg/email_logo_16px.svg) 24px 130px no-repeat;
+}
+
+.footer__subscription-area--text h2 {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21.78px;
+	color: #FFFFFF;
+	margin-bottom: 12px;
+}
+
+.footer__subscription-area--form {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 534px;
+	height: 48px;
+	border: 1px solid #F0BA4E;
+	border-radius: 30px;
+}
+
+input#email {
+	margin-left: 48px;
+	background: transparent;
+	border: none;
+	outline: none;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 15.52px;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+
+.footer__subscription-area--form button {
+	width: 94px;
+	height: 36px;
+	margin-right: 6px;
+	border-radius: 30px;
+	border: 0;
+	background: transparent;
+	background-color: rgba(240, 186, 78, 1);
+	font-size: 10px;
+	font-weight: 700;
+	line-height: 12.1px;
+	color: rgba(255, 255, 255, 1);
+	cursor: pointer;
+}
+
 .hrborder {
 	width: 1920px;
+	height: 143px;
 	border-top: 1px solid #566169;
 }
 
@@ -715,6 +784,27 @@ box-shadow: 0px 20px 50px 0px #3C3C3B12;
 	font-size: 14px;
 	line-height: 16.94px;
 	color: #FFFFFF;
+}
+
+.footer__social-links-and-copyright {
+	display: flex;
+	width: 1320px;
+	margin: 36px 0 0 300px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer__social-links {
+	width: 112px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__copyright {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16.94px;
+	color: rgba(255, 255, 255, 0.6);
 }
 /* Footer styles end*/
 
